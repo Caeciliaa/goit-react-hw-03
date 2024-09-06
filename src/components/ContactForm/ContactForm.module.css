@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 0 10px;
+}
+
+.title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  max-width: auto;
+  margin-left: 10px;
+}
+
+.input {
+  font: inherit;
+  border: 1px solid #252525;
+  display: flex;
+  width: 370px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

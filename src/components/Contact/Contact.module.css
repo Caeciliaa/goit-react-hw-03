@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.containerWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: black;
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
